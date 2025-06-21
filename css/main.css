@@ -1,0 +1,43 @@
+
+main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: auto;
+  width: 50%;
+  margin-top: 80px;
+  gap: 20px;
+  padding: 20px;
+}
+p{
+  width: 65%;
+  color: #121212;
+  line-height: 200%;
+  margin: 50px 0px 50px 0px;
+}
+svg{
+  height: 60px;
+  margin-left: -8%;
+}
+
+#btns{
+  display: flex;
+  gap: 2px;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.btn{
+  background-color: #FFF;
+  border: 1px solid #378137;
+  padding: 8px;
+  border-radius: 4px 4px 0px 0px;
+  width: 95px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+#info{
+  border: 1px solid #378137;
+  height: 700px;
+  width: 85%;
+}

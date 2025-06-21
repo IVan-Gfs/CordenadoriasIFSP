@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+#BkLogo{
+  background: #195128; 
+  background: linear-gradient(90deg, #195128 0%, #38B75A 100% );
+  padding: 20px;
+}
+
+nav{
+  background-color: #094519;
+  padding: 6px;
+}
+nav ul{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  position: relative;
+  left: 65%;
+}
+nav ul li{
+  border-right: 1px solid grey;
+  padding-right: 8px;
+}
+nav li:last-child{
+  border: none;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
