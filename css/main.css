@@ -41,3 +41,7 @@ svg{
   height: 700px;
   width: 85%;
 }
+
+.content_info{
+  display: none;
+}

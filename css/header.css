@@ -5,6 +5,7 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
+  
 }
 
 html, body {
@@ -12,11 +13,14 @@ html, body {
 }
 
 
-
 #BkLogo{
   background: #195128; 
   background: linear-gradient(90deg, #195128 0%, #38B75A 100% );
   padding: 20px;
+}
+
+#BkLogo img{
+  margin-left: 120px;
 }
 
 nav{
