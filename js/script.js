@@ -1,4 +1,4 @@
-
+// função para alterar a cor do botão e o conteúdo
 function optSelected(btn, info) {
 
     document.querySelectorAll(".btn").forEach(btn => btn.style.backgroundColor = "#FFF")
@@ -17,7 +17,7 @@ const info = document.querySelectorAll(".content_info")
 
 
 
-btns.forEach((btn) => {
+btns.forEach((btn) => { //adicionando o evento em todos os elementos
     btn.addEventListener('click', () => {
      
       let infoSelected =  document.getElementById(btn.dataset.info);
@@ -27,4 +27,5 @@ btns.forEach((btn) => {
     });
   });
 
- optSelected(btns[0], info[0]);
+
+ optSelected(btns[0], info[0]); // Já selecionar por padrão o primeiro elemento
