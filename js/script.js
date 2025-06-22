@@ -29,3 +29,9 @@ btns.forEach((btn) => { //adicionando o evento em todos os elementos
 
 
  optSelected(btns[0], info[0]); // Já selecionar por padrão o primeiro elemento
+
+//função para abrir o menu
+function Abremenu(){
+  const menu = document.getElementById('Menuaberto');
+  menu.classList.toggle('hidden');
+}
