@@ -42,7 +42,7 @@ nav li:last-child{
   border: none;
 }
 
-a{
+nav   a{
   text-decoration: none;
   color: #FFF;
 }
