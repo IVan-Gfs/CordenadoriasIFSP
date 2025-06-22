@@ -54,7 +54,7 @@ svg{
 }
 
 #SvgMenu{
-  background-color: #eeeeee;
+  background-color: #f9f9f9;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -74,15 +74,20 @@ svg{
 
 #Menuaberto{
   list-style: none;
-  background-color: #eeeeee;
+  background-color: #f9f9f9;
   position: absolute;
   top: 25px;
-  right: 0;
-  width: 100px;
-  border-radius: 0px 0px 3px 3px;
+  left: 0px;
+  width: 150px;
+  border-radius: 0px 3px 3px 3px;
   text-align: center;
-  align-items: center;
   height: 130px;
+  /* para a animação*/
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.3s ease;
+  pointer-events: none;
 }
 
 #Menuaberto li a {
@@ -91,6 +96,8 @@ svg{
   text-decoration: none;
 }
 
-.hidden{
-  display: none;
+#Menuaberto.active {
+  opacity: 1;
+  transform: scaleY(1);
+  pointer-events: all;
 }
